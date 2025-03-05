@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #000000; /* Latar belakang hitam solid */
+    color: white; /* Warna teks putih */
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white; /* Border putih di sekitar gambar profil */
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white; /* Warna tautan putih */
+    transition: color 0.3s; /* Efek transisi saat hover */
+}
+.social-icons a:hover {
+    color: red; /* Warna saat hover */
+}
+h1, h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Bayangan teks untuk efek mewah */
+}
